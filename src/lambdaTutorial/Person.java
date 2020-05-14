@@ -1,4 +1,5 @@
-package lambdaTutorial;/*
+package lambdaTutorial;
+/*
  * Copyright (c) 2013, Oracle and/or its affiliates. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,15 +28,15 @@ package lambdaTutorial;/*
  * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- */ 
- 
-import java.util.List;
-import java.util.ArrayList;
-import java.time.chrono.IsoChronology;
+ */
+
 import java.time.LocalDate;
+import java.time.chrono.IsoChronology;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Person {
-  
+
     public enum Sex {
         MALE, FEMALE
     }
